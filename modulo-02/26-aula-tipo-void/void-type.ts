@@ -12,7 +12,7 @@ const logErrorExample2 = (errorMessage: string): void => {
 
 logErrorExample2('Required Field - Surname!')
 
-// Exemplo 2 => Variáveis
+// Exemplo 3 => Variáveis
 let variavelExemplo2: void
 variavelExemplo2 = null
 variavelExemplo2 = undefined
