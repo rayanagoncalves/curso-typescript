@@ -27,11 +27,11 @@ type Pessoa = {
     email?: string
 }
 
-let pessoa: Pessoa
+// let pessoa: Pessoa
 
-pessoa = {
-    idFuncionario: 123,
-    nome: 'Ray'
-}
+// pessoa = {
+//     idFuncionario: 123,
+//     nome: 'Ray'
+// }
 
-console.log(pessoa)
+// console.log(pessoa)
