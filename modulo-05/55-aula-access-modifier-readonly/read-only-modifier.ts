@@ -45,3 +45,18 @@ interface IFuncionario {
     codigo: number,
     nome: string
 }
+
+const funcionario01: Readonly<IFuncionario> = {
+    codigo: 1234,
+    nome: 'Maria'
+}
+
+// funcionario01.codigo = 123 => erro
+// funcionario01.nome = 'João' => erro
+
+const funcionario02: IFuncionario = {
+    codigo: 1234,
+    nome: 'Maria'
+}
+funcionario02.codigo = 1345
+funcionario02.nome = 'João'
