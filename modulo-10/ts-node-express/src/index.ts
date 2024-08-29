@@ -2,7 +2,7 @@ import express, { Express, Request, Response } from 'express'
 import helmet from 'helmet'
 import dotenv from 'dotenv'
 
-console.log('Oi, developers')
+dotenv.config()
 
 const app: Express = express()
 const PORT = process.env.PORT || 3000
